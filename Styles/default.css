@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 12% 10%;
+}
+
+header {
+  color: white;
+}
+
+.container2 {
+  background-color: white;
+  color: black;
+  padding: 2% 10% 2% 10%;
+}
+
+hr {
+  border: 2px solid black;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1% 10%;
+}
+
+ul {
+  display: flex;
+}
+
+nav li:hover {
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+#description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+#main-img {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+#creations {
+  text-align: center;
+}
+
+.container2 a {
+  color: black;
+}
+
+#contact {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-bottom: 5em;
+}
+
+#js {
+    background-image: url(../Images/jump-start.png);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+#rp {
+    background-image: url(../Images/rodeo-pump.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+#pm {
+    background-image: url(../Images/pac-man.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+#mp {
+    background-image: url(../Images/mega-pop.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.grid a {
+    display: flex;
+    align-items: center;
+    text-shadow: 17px -4px 21px rgba(0,0,0,1);
+    padding-left: 1em;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+#button {
+    border: 1px solid black;
+    padding: 12px 25px;
+    color: white;
+    background-color: black;
+}
+
+h2 {
+    font-size: 1.9em;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+
+@media all and (max-width: 1130px) {
+    .grid {
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 200px);
+        column-gap: 20px;
+        row-gap: 20px;
+        margin-bottom: 5em;
+    }
+
+    img {
+        width: 400px;
+    }
+}
+
+@media all and (max-width: 880px) {
+    
+    img {
+        width: 200px;
+    }
+    
+    .container2 {
+        padding-bottom: 10%;
+    }
+
+}
+
+@media all and (max-width: 415px) {
+    
+    #main-img {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    div#main-img {
+        margin-left: 10%;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    .container2 {
+        padding-bottom: 10%;
+    }
+
+    .flexbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 1% 2%;
+}
+
+}
+

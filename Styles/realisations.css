@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+
+  .bcontainer {
+    background-image: url(../Images/jump-start.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    padding: 12% 10%;
+    
+  }
+  
+  header {
+    color: white;
+  }
+  
+  .container2 {
+    background-color: white;
+    color: black;
+    padding: 2% 10% 2% 10%;
+  }
+  
+  hr {
+    border: 2px solid black;
+  }
+  
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1% 10%;
+  }
+  
+  ul {
+    display: flex;
+  }
+  
+  nav li:hover {
+    font-weight: bold;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+  }
+  
+  #description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 460px;
+  }
+  
+  
+  #creations {
+    text-align: center;
+  }
+  
+  .container2 a {
+    color: black;
+  }
+  
+  #contact {
+    text-align: center;
+  }
+  
+  #button {
+      border: 1px solid black;
+      padding: 12px 25px;
+      color: white;
+      background-color: black;
+  }
+  
+  h2 {
+      font-size: 1.9em;
+  }
+  
+  footer {
+      background-color: white;
+      color: black;
+      padding-top: 2%;
+      padding-left: 10%;
+      padding-bottom: 2%;
+  }
+
+
+  @media all and (max-width:1130px) {
+
+    #description {
+      width: 100%;
+    }
+}
+
+
+  @media all and (max-width: 880px) {
+    
+    .container2 {
+        padding-bottom: 10%;
+    }
+
+}
+
+@media all and (max-width: 400px) {
+    
+    
+  .container2 {
+      padding-bottom: 10%;
+  }
+
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1% 2%;
+}
+
+}

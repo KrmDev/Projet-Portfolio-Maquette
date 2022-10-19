@@ -33,6 +33,10 @@ a {
     
   }
   
+h1 {
+  font-size: 3em;
+}
+
   header {
     color: white;
   }
